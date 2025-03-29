@@ -30,7 +30,37 @@
     width: 80%;
 }
 
-#first_name_list {
+.Home__Container__Names__Email__Recipients {
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.Recipients__Name , 
+.Recipients__Email {
+    width: 49%;
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+        border: 2px solid rgb(0, 255, 217);
+        padding: 10px 20px;
+        border-radius: 10px;
+}
+
+.Recipients__Email__h3 , 
+.Recipients__Name__h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    width: 100%;
+    color: #275d54;
+}
+
+#first_name_list ,
+#email_list {
     resize: none;
     width: 100%;
     height: 100px;
@@ -41,22 +71,25 @@
     border-radius: 10px;
     background: #ebebeb;
 }
-#first_name_list::placeholder {
+#first_name_list::placeholder , 
+#email_list::placeholder  {
     font-size: 15px;
 }
-#first_name_list:focus::placeholder  {
+#first_name_list:focus::placeholder ,  
+#email_list:focus::placeholder   {
     opacity: 0;
 }
-#first_name_list:focus  {
+#first_name_list:focus , 
+#email_list:focus  {
     /* color: var( --white-color); */
     font-size: 15px;
 }
 
 .Home__Container__From__To {
     font-size: 30px;
-    margin: 20px 0;
     width: 100%;
-    color: #275d54;
+    color: #ffffff;
+    margin: 20px 0;
 }
 .Home__Container__From__To__Container {
     width: 100%;
@@ -93,9 +126,9 @@
 .Home__Container__From__Name ,
 .Home__Container__To__Name  {
     color: rgb(39 93 84);;
-    font-size: 25px;
+    font-size: 18px;
     margin: 10px 0 20px;
-    border-bottom: 2px solid rgb(0, 255, 217);
+    width: 100%;
 }
 
 .Home__Container__From__To__Container__From input::placeholder , 
@@ -115,13 +148,13 @@
  .Home__Container__Title__Email {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: space-between;
     align-items: center;
  }
  .Home__Container__Title__Email input {
     width: 100%;
-    height: 50px;
+    height: 100px;
     padding: 10px;
     border: 0;
     outline: 0;
@@ -202,3 +235,15 @@ border-radius: 10px;
     background-color: transparent;
  }
 
+.Home__Container__Title__Email__Email , 
+.Home__Container__Title__Email__Message {
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 49%;
+        border: 2px solid rgb(0, 255, 217);
+        padding: 10px 20px;
+        border-radius: 10px;
+}

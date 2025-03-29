@@ -120,10 +120,10 @@ body {
     .Home__Container__From__To {
         font-size: 25px;
     }
-    .Home__Container__From__Name, .Home__Container__To__Name {
+    /* .Home__Container__From__Name, .Home__Container__To__Name {
      
         font-size: 20px;
-    }
+    } */
 }
 @media screen and (min-width : 0px) and (max-width :800px) {
     .Home__Container__From__To__Container {
@@ -140,8 +140,28 @@ body {
     .Home__Container__From__To {
         font-size: 20px;
     }
-    .Home__Container__From__Name, .Home__Container__To__Name {
+    /* .Home__Container__From__Name, .Home__Container__To__Name {
      
         font-size: 15px;
+    } */
+    .Home__Container__Names__Email__Recipients {
+      
+        flex-direction: column;
+    }    
+    .Recipients__Name, .Recipients__Email {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Home__Container__Title__Email {
+      
+        flex-direction: column; 
+    }
+    .Home__Container__Title__Email__Email, .Home__Container__Title__Email__Message {
+     
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .Home__Container__Title__Email textarea:first-child {
+        height: 50px;
     }
 }
