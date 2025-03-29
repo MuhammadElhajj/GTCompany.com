@@ -7,7 +7,7 @@ function Home() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "e3866185-855a-4329-809f-6186fd674888");
+    formData.append("access_key", "3a3492c5-f67d-4843-871e-92d3e7128363");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
