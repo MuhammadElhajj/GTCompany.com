@@ -1,0 +1,15 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-top: 2px solid #00ffd9;
+}
+.Footer__Logo__Photo {
+    width: 30px;
+    height: 30px;
+}
+
+.Footer-Span {
+margin-left: 10px;
+color: #fff;
+}

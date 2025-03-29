@@ -1,0 +1,32 @@
+.Header {
+    
+    position: sticky;
+    top: 0;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 10%;
+    /* background-color: var(--white-color); */
+    background-color: #1a1e23;
+    box-shadow: 0 0 5px #12f7d6;
+
+    
+}
+
+.Header__Logo__Photo {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    box-shadow: 0 0 1px #12f7d6;
+    border-radius: 40%;
+}
+
+.Header__Bars__Icons {
+    color: #00ffd9;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
