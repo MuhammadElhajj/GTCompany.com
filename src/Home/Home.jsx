@@ -1,5 +1,6 @@
 import "./Home.css";
 import Swal from "sweetalert2";
+// import React , {useState} from "react";
 // import LogoPhoto from '../images/GT11.png'
 
 function Home() {
@@ -7,7 +8,9 @@ function Home() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "3a3492c5-f67d-4843-871e-92d3e7128363");
+    // formData.append("access_key", "3a3492c5-f67d-4843-871e-92d3e7128363");
+    // formData.append("access_key", "e3866185-855a-4329-809f-6186fd674888");
+    formData.append("access_key", "fd965d88-b22d-41a8-b4e6-8443c2d7b094");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -28,7 +31,31 @@ function Home() {
         icon: "success",
       });
     }
-  };
+    
+    
+  }
+
+      // State to hold the selected file
+    //   const [selectedFile, setSelectedFile] = useState(null);
+  
+    // // Function to handle file selection
+    // function handleFileChange (event)  {
+    //   const file = event.target.files[0];
+    //   setSelectedFile(file);
+    // };
+    
+    // // Function to handle form submission
+    // function handleSubmit (event)  {
+    //   event.preventDefault();
+      
+    //   if (selectedFile) {
+    //     alert(`File selected: ${selectedFile.name}`);
+    //   } else {
+    //     alert("No file selected");
+    //   }
+    // }
+  
+  
   return (
     <div className="Home">
       {/* <img className="Home__Img" src={LogoPhoto} alt="Logo" /> */}
@@ -130,6 +157,15 @@ function Home() {
           <div className="Home__Container__Chosse__File">
             <h3 className="Home__Container__From__To">4 _ Send File</h3>
             <input type="file" name="attachments[]" id="attachments" multiple />
+            {/* ! */}
+            {/* <input 
+          type="file" 
+          onChange={handleFileChange}
+          name="attachments[]" id="attachments" multiple 
+        />
+        <br />
+        {selectedFile && <p>Selected File: {selectedFile.name}</p>} */}
+         {/* ! */}
           </div>
 
           <div className="Home__Container__Send__Button">
@@ -142,5 +178,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;

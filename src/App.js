@@ -10,6 +10,7 @@ import Header from "./Header/Header";
 // import AccordianSkills from "./SkillsAccordian/AccordianSkills";
 import Footer from "./Footer/Footer";
 import "./App.css";
+// import FileUpload from "./File";
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       <AccordianSkills />
       <Contact /> */}
       <Footer />
+      {/* <FileUpload /> */}
     </div>
   );
 }
