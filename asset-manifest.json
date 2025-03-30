@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GTCompany.com/static/css/main.5116cf78.css",
-    "main.js": "/GTCompany.com/static/js/main.8ea0e8e1.js",
+    "main.js": "/GTCompany.com/static/js/main.cc84eb3b.js",
     "static/media/GT11.png": "/GTCompany.com/static/media/GT11.8d510deb67730e11e1e3.png",
     "index.html": "/GTCompany.com/index.html",
     "main.5116cf78.css.map": "/GTCompany.com/static/css/main.5116cf78.css.map",
-    "main.8ea0e8e1.js.map": "/GTCompany.com/static/js/main.8ea0e8e1.js.map"
+    "main.cc84eb3b.js.map": "/GTCompany.com/static/js/main.cc84eb3b.js.map"
   },
   "entrypoints": [
     "static/css/main.5116cf78.css",
-    "static/js/main.8ea0e8e1.js"
+    "static/js/main.cc84eb3b.js"
   ]
 }
